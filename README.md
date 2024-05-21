@@ -1,2 +1,8 @@
 # HSI_CNN
 A Deep Learning project demonstrating the use and advantages of neural networks by classifying the hyperspectral images with good accuracy and reducing spectral complexity 
+
+
+
+
+A convolutional neural network (CNN) approach for hyperspectral image classification, addressing the challenges posed by spectral complexity and dataset selection difficulties. Leveraging ground truth data for training and evaluation, the CNN model demonstrates remarkable accuracy in classifying land cover types from hyperspectral imagery. The project begins with comprehensive data preprocessing, including the loading and organization of hyperspectral data and corresponding ground truth labels. The CNN architecture, consisting of dense, dropout, and batch normalization layers, effectively extracts relevant features and classifies pixels into distinct land cover classes. Training involves iterative parameter optimization using the Adam optimizer and early stopping to mitigate overfitting. Evaluation metrics, such as accuracy, precision, recall, and confusion matrix analysis, affirm the model's effectiveness across multiple classes. Visualization of training history provides insights into the model's learning process and convergence. While the CNN-based approach yields promising results, opportunities for enhancement exist, such as exploring alternative architectures, optimizing hyperparameters, and integrating advanced techniques like data augmentation. Overall, this work underscores the potential of CNNs for accurate and efficient hyperspectral image classification, with implications for diverse applications spanning agriculture, environmental monitoring, urban planning, and disaster management.
+ 
